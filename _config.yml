@@ -22,7 +22,7 @@ title                    : "Pentest Vizard blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sunil Sathyanarayan"
-description              : "Penetration tester blog."
+description              : "Information Security and Penetration Testing  blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -116,6 +116,7 @@ analytics:
 author:
   name             : "Sunil Sathyanarayan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/sunil.jpg
   bio              : "Just another InfoSec dude"
   location         : "India"
   email            : "pentestvizard@pm.me"
