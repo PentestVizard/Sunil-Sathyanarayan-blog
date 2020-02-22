@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sunil Sathyanarayan blog"
+title                    : "Pentest Vizard blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sunil Sathyanarayan"
@@ -28,6 +28,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                    : "images/logo_round.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -44,7 +45,8 @@ comments:
     #colorscheme          : # "light" (default), "dark"
     colorscheme          : "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+   # theme                : # "github-light" (default), "github-dark"
+    theme               : "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -121,7 +123,7 @@ author:
       # url: mailto:pentestvizard@pm.me
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://pentestvizard.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/SunilkumarS6"
@@ -140,7 +142,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url: "https://twitter.com/SunilkumarS6"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
