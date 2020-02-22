@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Sunil Sathyanarayan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  avatar           : /images/sunil.jpg
+  avatar           : /images/sunil.png
   bio              : "Just another InfoSec dude"
   location         : "India"
   email            : "pentestvizard@pm.me"
