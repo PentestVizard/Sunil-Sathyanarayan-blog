@@ -116,7 +116,7 @@ author:
   links:
     - label: "Email"
       icon: "/images/icon/mail.jpg"
-       url: "mailto:pentestvizard@pm.me"
+       # url: "mailto:pentestvizard@pm.me"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -137,8 +137,8 @@ author:
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/sunilkumars6"
+      icon: "/images/icon/twitter.png"
+       url: "https://twitter.com/sunilkumars6"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
