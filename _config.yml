@@ -12,24 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pentest Vizard blog"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Sunil Sathyanarayan"
-description              : "Information Security and Penetration Testing  blog."
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-teaser                  : /images/logo.png
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-logo                    : "images/logo_round.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -43,11 +39,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    #colorscheme          : # "light" (default), "dark"
-    colorscheme          : "dark"
+    colorscheme          : # "light" (default), "dark"
   utterances:
-   # theme                : # "github-light" (default), "github-dark"
-    theme               : "github-dark"
+    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -59,7 +53,7 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : pentestvizard@pm.me # "md5"
+    email                : # "md5"
   generatedFields:
     date:
       type               : # "date"
@@ -71,8 +65,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-#search                   : # true, false (default)
-search                    : true
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -91,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : sunilkumars6
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -114,28 +107,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sunil Sathyanarayan"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  avatar           : /images/sunil.png
-  bio              : "Just another InfoSec dude"
-  location         : "India"
-  email            : "pentestvizard@pm.me"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:pentestvizard@pm.me
+      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://pentestvizard.com"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/SunilkumarS6"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/PentestVizard/"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -145,7 +137,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/SunilkumarS6"
+      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -232,7 +224,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone : "Asia/Calcutta"
 
 
 # Plugins (previously gems:)
@@ -292,26 +283,13 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-     - scope:
-        path: ""
-        type: posts
+  - scope:
+      path: ""
+      type: posts
     values:
-        layout: single
-        author_profile: true
-        read_time: true
-        comments: # true
-        share: true
-        related: true
-    
-    # _pages
-    - scope:
-        path: ""
-        type: pages
-    values:
-        layout: single
-        author_profile: true
-        read_time: true
-        comments: # true
-        share: true
-        related: true
-
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
