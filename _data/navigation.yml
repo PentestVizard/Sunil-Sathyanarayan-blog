@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "About "
-    url:  /about/
-- title: "Return Oriented Programming"
-    url: /ROP/
+ # - title: "About "
+ #   url:  /about/
+ #   - title: "Return Oriented Programming"
+ #   url: /ROP/
  # - title: "Contact"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
