@@ -295,23 +295,23 @@ defaults:
      - scope:
         path: ""
         type: posts
-        values:
+    values:
         layout: single
         author_profile: true
         read_time: true
         comments: # true
         share: true
         related: true
-        
+    
     # _pages
     - scope:
-      path: ""
-      type: pages
+        path: ""
+        type: pages
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+        layout: single
+        author_profile: true
+        read_time: true
+        comments: # true
+        share: true
+        related: true
 
