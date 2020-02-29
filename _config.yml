@@ -59,7 +59,7 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : pentestvizard@pm.me # "md5"
   generatedFields:
     date:
       type               : # "date"
@@ -303,4 +303,14 @@ defaults:
       share: true
       related: true
 
+    - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
 
