@@ -138,7 +138,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "/images/icon/twitter.png"
-       url: "https://twitter.com/sunilkumars6"
+       #url: "https://twitter.com/sunilkumars6"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
