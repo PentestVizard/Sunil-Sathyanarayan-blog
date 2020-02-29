@@ -116,7 +116,7 @@ author:
   links:
     - label: "Email"
       icon: "/images/icon/mail.jpg"
-      # url: "mailto:pentestvizard@pm.me"
+       url: "mailto:pentestvizard@pm.me"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
