@@ -24,10 +24,10 @@ description              : "Information security blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/logo.png"
+teaser                   : "/images/logo.png"
+logo                     : "/images/logo_round.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true 
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : sunilkumars6
+  username               : "sunilkumars6"
 facebook:
   username               :
   app_id                 :
@@ -95,8 +95,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
+  links: 
+    - "https://twitter.com/SunilkumarS6"
+    - "https://github.com/PentestVizard"
 # Analytics
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
@@ -115,19 +116,19 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:pentestvizard@pm.me
+       url: "mailto:pentestvizard@pm.me"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/sunilkumars6"
+       url: "https://twitter.com/sunilkumars6"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/pentestvizard"
+       url: "https://github.com/pentestvizard"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,13 +138,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/sunilkumars6"
+       url: "https://twitter.com/sunilkumars6"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/pentestvizard"
+       url: "https://github.com/pentestvizard"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
