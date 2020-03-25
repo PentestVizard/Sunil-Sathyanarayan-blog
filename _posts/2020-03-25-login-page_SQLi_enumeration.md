@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Login page Enumeration for SQLi using BurpSuite and wfuzz. 
+title: User input field Enumeration for SQLi using BurpSuite and wfuzz. 
 date : "2020-03-26"
 ---
 
-This article shows how to enumerate login page for SQL injection using burpsuite and Wfuzz, and I am considering Cronos machine from HackTheBox retired machines for this example.
+This article shows how to enumerate login page for SQL injection using burpsuite and Wfuzz, and I am considering Cronos machine from HackTheBox retired machines for this example. same can be extented to check user input field on a post request.
 
 {% capture fig_img %}
 ![Foo]({{ "/images/SQLi/SQLi_login_page.png"|relative_url}})
